@@ -1,0 +1,74 @@
+.h1 {
+    font-size: 40px;
+    color: #072910;
+    margin: auto;
+    width: 30ch;
+    padding-top: 6rem;
+}
+
+.explorePara {
+    font-size: 16px;
+    width: 85ch;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    .exploreCollection {
+        font-weight: bolder;
+        color: #072910;
+        background-color: #3DBC4F;
+        margin-top: 2rem;
+    }
+}
+
+.exploreCollection:hover {
+    color: #3DBC4F;
+    background-color: #072910;
+}
+
+.list {
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nft {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+
+        p {
+            padding: 0;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+
+    }
+
+
+
+
+}
+
+.bar {
+    height: 1.5vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    width: 45%;
+
+}
+
+.cliam {
+    margin-top: 2rem;
+    margin-left: 23rem;
+    padding-bottom: 2rem;
+    // width: 10%;
+
+}

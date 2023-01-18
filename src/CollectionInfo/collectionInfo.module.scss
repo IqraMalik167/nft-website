@@ -1,0 +1,150 @@
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+
+}
+
+.collectionWrapper {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(34 72 49);
+
+
+    .coordinatesText {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1rem;
+        // line-height: 1rem;
+
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: rgb(221, 221, 221);
+        }
+
+        svg {
+
+            fill: rgb(221, 221, 221);
+
+            rect {
+                stroke: #224831 !important;
+            }
+        }
+
+    }
+
+    .countryText {
+        padding-top: 4.5rem;
+    }
+
+    .areaText {
+        padding-top: 1rem;
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 16px;
+    }
+
+    p {
+        // display: inline-block;
+        text-align: start;
+        padding: 0;
+        font-size: 16px;
+        color: rgb(221, 221, 221);
+    }
+}
+
+h2 {
+    font-size: 16px;
+    color: #072910;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding-top: 2rem;
+
+}
+
+.sectionTwo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 1rem;
+    width: 350px;
+
+    h3 {
+        font-size: 16px;
+        color: white;
+        padding: 1rem;
+
+    }
+
+    .rectangle {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+
+        .rectangleM {
+            margin-top: 3rem;
+            width: 10rem;
+            height: 10rem;
+            border: 1px solid white;
+            // background-color: rgba(255, 255, 255, .2);
+            background-color: rgba($color: #fff, $alpha: .1);
+        }
+    }
+
+    .barSvg {
+        margin-top: 3rem;
+        margin-right: 0;
+
+        p {
+            color: white;
+            font-size: 16px;
+            // text-align: right;
+            padding-right: 0rem;
+
+            svg {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}
+
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // position: relative;
+
+    border-radius: 1rem;
+    width: 350px;
+    height: 350px;
+    background-color: #438C4D;
+
+    .collection {
+        display: flex;
+        font-size: 14px;
+        color: white;
+        gap: 3.5rem;
+        padding: 1rem;
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .gridSvg {
+        // position: absolute;
+        bottom: 0;
+        margin-right: 2rem;
+
+    }
+}
